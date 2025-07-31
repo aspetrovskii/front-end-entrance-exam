@@ -1,0 +1,13 @@
+.profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.profile img.avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}

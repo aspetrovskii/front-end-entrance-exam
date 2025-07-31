@@ -2,12 +2,284 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Resume | Karthik SR</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="./js/main.js"></script>
+    <header class="page-header">
+      <button id="cmd">Скачать PDF</button>
+    </header>
+
+    <main class="resume-wrapper">
+      <div class="resume-content">
+        <div class="resume-section-block-1">
+          <section class="profile">
+            <img src="public/avatar.png" alt="Profile picture" class="avatar" />
+            <div class="profile-text">
+              <div class="greeting">
+                <span class="editable">Hello 👋🏻 I'm</span>
+              </div>
+              <div class="base-info">
+                <h1><span class="editable">Karthik SR</span></h1>
+                <h2><span class="editable">UX/UI Designer</span></h2>
+              </div>
+            </div>
+          </section>
+
+          <section class="section languages">
+            <h3><span class="editable">Languages</span></h3>
+            <div class="language-grid">
+              <div class="language-labels">
+                <div><span class="editable">English</span></div>
+                <div><span class="editable">Malayalam</span></div>
+                <div><span class="editable">Hindi</span></div>
+              </div>
+              <div class="language-bars">
+                <div class="bar bar-en"></div>
+                <div class="bar bar-ml"></div>
+                <div class="bar bar-hi"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume-section-block-2">
+          <section class="section experience">
+            <h3><span class="editable">Experience</span></h3>
+
+            <div class="job recent">
+              <div class="job-header">
+                <div class="job-date recent">
+                  <span class="editable">Jun. 2023 – Present</span>
+                </div>
+                <div class="job-tag">
+                  <span class="editable">most recent</span>
+                </div>
+              </div>
+              <div class="job-body">
+                <div class="job-info">
+                  <div class="job-role editable recent">Marketing Manager</div>
+                  <div class="job-place editable recent">
+                    Pankayam | Full-time
+                  </div>
+                </div>
+                <ul class="job-desc recent">
+                  <li>
+                    <span class="editable"
+                      >Strategy development and planning of campaigns that
+                      promote the business and generate genuine traffic</span
+                    >
+                  </li>
+                  <li>
+                    <span class="editable"
+                      >SEO Content Creation for Blogs, Website, Social
+                      media</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="job">
+              <div class="job-date">
+                <span class="editable">2017 – Present</span>
+              </div>
+              <div class="job-body">
+                <div class="job-info">
+                  <div class="job-role editable">Graphic / Web Designer</div>
+                  <div class="job-place editable">Freelance</div>
+                </div>
+                <ul class="job-desc">
+                  <li>
+                    <span class="editable"
+                      >Development of internal projects from scratch, product
+                      design of brands</span
+                    >
+                  </li>
+                  <li>
+                    <span class="editable"
+                      >Landing page, webapps and hybrid apps</span
+                    >
+                  </li>
+                  <li>
+                    <span class="editable"
+                      >Coordinating with outside agencies, art services, web
+                      designer, marketing, printers, and colleagues as
+                      necessary</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="job">
+              <div class="job-date">
+                <span class="editable">Sep. 2021 – Jun. 2023</span>
+              </div>
+              <div class="job-body">
+                <div class="job-info">
+                  <div class="job-role editable">Legal Assistant</div>
+                  <div class="job-place editable">Law Firm | Intern</div>
+                </div>
+                <ul class="job-desc">
+                  <li>
+                    <span class="editable"
+                      >Provide administrative support to lawyer and enhance
+                      office effectiveness</span
+                    >
+                  </li>
+                  <li>
+                    <span class="editable"
+                      >Handle communication with clients, witnesses etc.</span
+                    >
+                  </li>
+                  <li>
+                    <span class="editable"
+                      >Prepare case briefs and summarize depositions,
+                      interrogatories and testimony</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="tools-box">
+            <h2 class="title"><span class="editable">Tools</span></h2>
+
+            <section class="tools-group">
+              <div class="category-label">
+                <span class="editable">design</span>
+              </div>
+              <div class="icon-group">
+                <img src="/public/figma.svg" alt="Figma" />
+                <img src="/public/photoshop.svg" alt="Photoshop" />
+                <img src="/public/illustrator.svg" alt="Illustrator" />
+                <img src="/public/premiere.svg" alt="Premiere" />
+                <img src="/public/notion.svg" alt="Notion" />
+                <img src="/public/meet.svg" alt="Google Meet" />
+              </div>
+            </section>
+
+            <section class="tools-group">
+              <div class="category-label">
+                <span class="editable">no-code</span>
+              </div>
+              <div class="icon-group">
+                <img src="/public/zapier.svg" alt="Zapier" />
+                <img src="/public/webflow.svg" alt="Webflow" />
+                <img src="/public/framer.svg" alt="Framer" />
+                <img src="/public/wordpress.svg" alt="WordPress" />
+              </div>
+            </section>
+
+            <section class="tools-group">
+              <div class="category-label">
+                <span class="editable">artifical intelligence</span>
+              </div>
+              <div class="icon-group">
+                <img src="/public/chatgpt.svg" alt="ChatGPT" />
+                <img src="/public/copilot.svg" alt="Copliot" />
+                <img src="/public/midjorney.svg" alt="Midjuorney" />
+                <img src="/public/white.png" alt="Other AI" />
+              </div>
+            </section>
+          </section>
+        </div>
+
+        <div class="resume-section-block-3">
+          <div class="education-wrapper">
+            <section class="section education">
+              <div class="title">
+                <h3><span class="editable">Education</span></h3>
+              </div>
+              <div class="items">
+                <div class="edu-item recent">
+                  <div class="edu-date"><span class="editable">2023</span></div>
+                  <div class="edu-content">
+                    <div class="edu-title editable">UI/UX</div>
+                    <div class="tagsNsource">
+                      <div class="edu-tags editable recent">
+                        #UX #UI #research #DesignSystem #Ui #wireframing #figma
+                        #Ux
+                      </div>
+                      <div class="edu-source editable">Coursera</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="edu-item">
+                  <div class="edu-date">
+                    <span class="editable">2017 – 2022</span>
+                  </div>
+                  <div class="edu-content">
+                    <div class="edu-title editable">Law</div>
+                    <div class="tagsNsource">
+                      <div class="edu-tags editable">
+                        #law #legalStudies #contracts #internationalLaws
+                      </div>
+                      <div class="edu-source editable">
+                        University of Kerala
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="edu-item">
+                  <div class="edu-date"><span class="editable">2017</span></div>
+                  <div class="edu-content">
+                    <div class="edu-title editable">Graphic design</div>
+                    <div class="tagsNsource">
+                      <div class="edu-tags editable">
+                        #branding #web #illustration #adobe
+                      </div>
+                      <div class="edu-source editable">Coursera</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="bottom-info-wrapper">
+            <section class="section interests">
+              <h3><span class="editable">Interests</span></h3>
+              <ul>
+                <li><span class="editable">branding</span></li>
+                <li><span class="editable">design</span></li>
+                <li><span class="editable">photography</span></li>
+                <li><span class="editable">artificial intelligence</span></li>
+                <li><span class="editable">illustration</span></li>
+                <li><span class="editable">typography</span></li>
+                <li><span class="editable">social networks</span></li>
+                <li><span class="editable">research</span></li>
+                <li><span class="editable">dron pilot</span></li>
+                <li><span class="editable">games</span></li>
+              </ul>
+            </section>
+
+            <section class="section contact">
+              <h3>
+                <span class="editable"
+                  >Let’s chat! I’m ready to work on exciting projects</span
+                >
+              </h3>
+              <div class="editable">srkarthik.designscape@gmail.com</div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="/js/main.js"></script>
+    <script
+      type="module"
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+    ></script>
+    <script
+      type="module"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
+    ></script>
   </body>
 </html>

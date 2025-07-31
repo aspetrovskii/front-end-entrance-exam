@@ -1,0 +1,22 @@
+.contact {
+  background: black;
+  color: white;
+  display: flex;
+  width: 534px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 24px;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.contact div {
+  margin-top: 10px;
+  word-break: break-word;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}

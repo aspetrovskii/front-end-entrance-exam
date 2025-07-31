@@ -1,0 +1,121 @@
+.experience {
+  display: flex;
+  width: 822px;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--gray-bg);
+  padding: 20px;
+  border-radius: 24px;
+  justify-content: space-between;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 24px;
+
+  &.recent {
+    background-color: var(--green);
+    color: #fff;
+  }
+}
+
+.job-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.job-date {
+  color: var(--gray-text);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+
+  &.recent {
+    color: #fff;
+  }
+}
+
+.job-body {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.job-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.job-role {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: black;
+  &.recent {
+    color: #fff;
+  }
+}
+
+.job-place {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--gray-text);
+
+  &.recent {
+    color: #fff;
+  }
+}
+
+.job-tag {
+  background: var(--yellow-opacity);
+  color: var(--yellow);
+  padding: 2px 8px;
+  border-radius: 118px;
+  width: fit-content;
+  text-transform: lowercase;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 155%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.job-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 20px;
+  width: 478px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: black;
+  &.recent {
+    color: #fff;
+  }
+}
+
+.job-desc li {
+  list-style-type: disc;
+  width: 100%;
+}

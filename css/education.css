@@ -1,0 +1,69 @@
+.education {
+  display: flex;
+  width: 536px;
+  gap: 20px;
+  background-color: var(--gray-bg);
+  padding: 24px;
+  border-radius: 24px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.title {
+  width: 100%;
+}
+
+.items {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.edu-item {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 24px;
+  width: 232px;
+  gap: 16px;
+  height: auto;
+
+  &.recent {
+    background-color: var(--green);
+    color: #fff;
+  }
+}
+
+.edu-date,
+.edu-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  width: 100%;
+}
+
+.edu-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tagsNsource {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.edu-tags {
+  width: 100%;
+  color: var(--green-text);
+  &.recent {
+    color: #fff;
+  }
+}

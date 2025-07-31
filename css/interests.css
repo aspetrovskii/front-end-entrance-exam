@@ -1,0 +1,26 @@
+.interests {
+  display: flex;
+  width: 534px;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--gray-bg);
+  padding: 20px;
+  border-radius: 24px;
+  justify-content: space-between;
+}
+
+.interests ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.interests li {
+  background: #fff;
+  padding: 8px 20px;
+  border-radius: 999px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
